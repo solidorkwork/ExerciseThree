@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="7" time="133.93">
+    <testcase classname="Adding two numbers in the Calculator App" name="Adding two numbers" time="18.79">
+        <system-out><![CDATA[Given Calculator is open....................................................passed
+And Results are cleared.....................................................passed
+When I add 5 and 7..........................................................passed
+Then 12 is shown............................................................passed
+And Results are cleared.....................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Adding two numbers in the Calculator App" name="Adding two numbers 2" time="21.861">
+        <system-out><![CDATA[Given Calculator is open....................................................passed
+And Results are cleared.....................................................passed
+When I add 5.5 and 90.1.....................................................passed
+Then 95.6 is shown..........................................................passed
+And Results are cleared.....................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Adding two numbers in the Calculator App" name="Adding two numbers 3" time="19.357">
+        <system-out><![CDATA[Given Calculator is open....................................................passed
+And Results are cleared.....................................................passed
+When I add .5 and 68........................................................passed
+Then 68.5 is shown..........................................................passed
+And Results are cleared.....................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Perform calculation" name="Perform basic arithmetic between two numbers" time="18.253">
+        <system-out><![CDATA[Given Calculator is open....................................................passed
+And Results are cleared.....................................................passed
+When I calculate 10+11......................................................passed
+Then The 21 is displayed....................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Perform calculation" name="Perform basic arithmetic between two numbers 2" time="18.374">
+        <system-out><![CDATA[Given Calculator is open....................................................passed
+And Results are cleared.....................................................passed
+When I calculate .5*55......................................................passed
+Then The 27.5 is displayed..................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Perform calculation" name="Perform basic arithmetic between two numbers 3" time="19.781">
+        <system-out><![CDATA[Given Calculator is open....................................................passed
+And Results are cleared.....................................................passed
+When I calculate 10\0.1.....................................................passed
+Then The 100 is displayed...................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Perform calculation" name="Perform basic arithmetic between two numbers 4" time="17.326">
+        <system-out><![CDATA[Given Calculator is open....................................................passed
+And Results are cleared.....................................................passed
+When I calculate 70-1.......................................................passed
+Then The 69 is displayed....................................................passed
+]]></system-out>
+    </testcase>
+</testsuite>

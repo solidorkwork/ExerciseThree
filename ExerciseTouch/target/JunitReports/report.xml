@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="33.7">
+    <testcase classname="Drawing Shapes" name="Drawing a box" time="33.528">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given The sketch page is open...............................................passed
+When I switch to technical pen..............................................passed
+And I draw the following lines:.............................................passed
+And I fill the center with black............................................undefined
+Then Only the inside is black...............................................skipped
+]]></failure>
+    </testcase>
+</testsuite>
